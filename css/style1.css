@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+        background: url(../images/motocross-wallpaper-hd-1.jpg);
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    padding: 50px 0 20px;
+}
+.title h1{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 40px;
+}
+.center{
+    position: absolute;
+}
+.center p{
+    margin: 5;
+    padding: 5;
+    font-weight: bold;
+}
+.center input[type="text"]{
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    height: 30px;
+    width: 150%;
+}
+.center input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 35px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    width: 68%;
+    font-size: 18;
+}
+.center input[type="text"]:focus{
+    border-bottom: 2px solid white;
+}
+.center input[type="submit"]:hover{
+    background: orange;
+}

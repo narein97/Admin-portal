@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>InsertCus</title>
+    <link href="css/style1.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+    <script>
+        new WOW().init();
+    </script>
+
+</head>
+
+<body>
+    <style>
+@import url('https://fonts.googleapis.com/css?family=Acme');
+        body{
+            font-family: 'Acme', sans-serif;
+        }
+        #cha{
+    width: 170px;
+}
+        #abx{
+            padding-left: 575px;        }
+</style>
+    
+    <div class="title"><h1><b>Enter customer Details...</b></h1></div>
+        <div class="center form-group" id="abx">
+        <form action="insertc.php" method="post">
+            <p><input type="text" class="form-control wow animated bounceIn" name="ID" placeholder="  ID" required></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="NAME" placeholder="  Name" required></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="AGE" placeholder="  Age"></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="GENDER" placeholder="  Gender"></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="EMAIL" placeholder="  E-mail"></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="PHONE_NO" placeholder="  Phone_no"></p>
+            <p><select id="cha" class="form-control wow animated bounceIn" name="BIKE_NAME">
+                <option value="KTM Duke 200">KTM Duke 200</option>
+                <option value="KTM RC 200">KTM RC 200</option>
+                <option value="KTM 1090 Adventure R">KTM 1090 Adventure R</option>
+                <option value="KTM 1190 RC8 R">KTM 1190 RC8 R</option>
+                <option value="KTM 1290 Super Adventure R">KTM 1290 Super Adventure R</option>
+                <option value="KTM 1290 Super Duke R">KTM 1290 Super Duke R</option>
+                <option value="KTM 450 SX-F">KTM 450 SX-F</option>
+                <option value="KTM 690 Enduro R">KTM 690 Enduro R</option>
+                <option value="KTM Duke 125">KTM Duke 125</option>
+                <option value="KTM Duke 690">KTM Duke 690</option>
+                <option value="KTM Duke 390">KTM Duke 390</option>
+                <option value="KTM RC 390">KTM RC 390</option>
+                </select></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="DATE_OF_PURCHASE" placeholder="  Date_of_purchase"></p>
+            <p><input type="text" class="form-control wow animated bounceIn" name="CHASIS_NO" placeholder="  Chasis_no"></p>
+            <p></p>
+            <p><input type="submit" class="btn btn-default wow animated flip" value="SUBMIT"></p>
+        </form>
+    </div>
+</body>
+    
+    
+</html>
+    

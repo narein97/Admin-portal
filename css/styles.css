@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../images/ktm-1290-super-duke-r-2560x1440-2017-hd-3677.jpg);
+    background-size: cover;
+}
+.center{
+    position: absolute;
+    top: 40%;
+    right: 75%;
+}
+.center input[type="submit"]{
+    font-size: 20;
+    border: none;
+    outline: none;
+    height: 40px;
+    color: white;
+    background: black;
+    cursor: pointer;
+    width: 200%;
+}
+.center input[type="submit"]:hover{
+    background: #FF6600;
+}
